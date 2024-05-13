@@ -1,5 +1,3 @@
-[spanish](https://github.com/SofiDevO/alurageek-API/tree/spanish)
-
 ## Deploy JSON Server to Vercel
 
 A template for deploying [JSON Server](https://github.com/typicode/json-server) on [Vercel](https://vercel.com), allowing you to run a fake REST API online 🐣!
