@@ -13,10 +13,13 @@ server.use(jsonServer.rewriter({
 }))
 server.use(router)
 
-// const corsOptions = {
-//     origin: 'https://listenit-music-player.netlify.app'
-// };
-server.use(cors());
+const corsOptions = {
+    origin: 'https://listenit-music-player.netlify.app',
+    methods: '*',
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true,
+};
+server.use(cors(corsOptions));
 
 server.listen(3000, () => {
     console.log('JSON Server is running')
