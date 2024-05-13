@@ -14,7 +14,7 @@ server.use(jsonServer.rewriter({
 server.use(router)
 
 const corsOptions = {
-    origin: 'https://listenit-music-player.netlify.app',
+    origin: 'https://www.listenit-music-player.netlify.app',
     methods: '*',
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
