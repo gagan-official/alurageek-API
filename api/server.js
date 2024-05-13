@@ -16,7 +16,7 @@ server.use(router)
 const corsOptions = {
     origin: 'https://listenit-music-player.netlify.app'
 };
-app.use(cors(corsOptions));
+server.use(cors(corsOptions));
 
 server.listen(3000, () => {
     console.log('JSON Server is running')
