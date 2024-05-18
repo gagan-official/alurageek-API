@@ -6,7 +6,7 @@ const middlewares = jsonServer.defaults();
 
 // CORS configuration
 const corsOptions = {
-  origin: 'https://www.listenit-music-player.netlify.app',
+  origin: 'www.listenit-music-player.netlify.app',
   methods: 'GET,OPTIONS,PATCH,DELETE,POST,PUT',
   allowedHeaders: ['Content-Type', 'Authorization', 'X-CSRF-Token', 'X-Requested-With', 'Accept', 'Accept-Version', 'Content-Length', 'Content-MD5', 'Date', 'X-Api-Version'],
   credentials: true,
